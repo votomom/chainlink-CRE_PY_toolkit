@@ -1,5 +1,6 @@
-# Extra deps for `don-secrets encrypt`
+# Extras: encryption pipeline + on-chain helpers
+# (estimate cost, timeout requests, commitments, response listeners).
 web3
+eth-abi
 ecdsa
 cryptography
-

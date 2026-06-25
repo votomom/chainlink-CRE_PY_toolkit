@@ -1,5 +1,5 @@
 python-dotenv
 requests
 eth-account
+cbor2
 packaging
-

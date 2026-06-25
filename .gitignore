@@ -1,14 +1,49 @@
 .env
 .env.*
+!.env.example
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .venv/
 venv/
+env/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.DS_Store
+.coverage
+htmlcov/
 
-# artifacts produced by encrypt step
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Node / CRE generated dependencies and builds
+node_modules/
+dist/
+build/
+*.wasm
+*.wasm.gz
+
+# Local generated CRE projects and demos
+demo-cre/
+price-feed/
+py-cre-demo/
+migrated-demo/
+migrated-functions-app/
+
+# Chainlink Functions legacy artifacts
 enc_artifacts.*
+*.signed_secrets.json
+*.don_key_encrypted.json
+*.encrypted_secrets.json
+*.encrypted_secrets.hex.txt
+secrets.json
+
+# Logs and temp files
+*.log
+tmp/
+temp/
 
